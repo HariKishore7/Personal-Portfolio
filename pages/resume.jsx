@@ -1,9 +1,8 @@
-import React from 'react'
 import Head from 'next/head';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { IoMdMail } from "react-icons/io";
 import Link from 'next/link';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
+import { IoMdMail } from "react-icons/io";
 
 const resume = () => {
     return (

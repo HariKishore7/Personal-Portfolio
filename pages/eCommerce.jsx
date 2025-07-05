@@ -1,8 +1,7 @@
-import Image from 'next/image'
-import React from 'react'
-import eCommerceImg from '../public/assets/projects/eCommerce.png'
-import { RiRadioButtonFill } from "react-icons/ri";
+import Image from 'next/image';
 import Link from 'next/link';
+import { RiRadioButtonFill } from "react-icons/ri";
+import eCommerceImg from '../public/assets/projects/eCommerce.png';
 
 const technologiesUsed = ["React", "TailWind CSS", "Redux", "etc..."];
 

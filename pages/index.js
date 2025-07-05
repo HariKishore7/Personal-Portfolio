@@ -1,12 +1,10 @@
-import Image from "next/image";
+import About from "@/components/About";
+import Contact from "@/components/Contact";
+import Main from "@/components/Main";
+import Projects from "@/components/Projects";
+import Skills from "@/components/Skills";
 import { Geist, Geist_Mono } from "next/font/google";
 import Head from "next/head";
-import NavBar from "@/components/NavBar";
-import Main from "@/components/Main";
-import About from "@/components/About";
-import Skills from "@/components/Skills";
-import Projects from "@/components/Projects";
-import Contact from "@/components/Contact";
 import Link from "next/link";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 

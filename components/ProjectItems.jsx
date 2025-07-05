@@ -1,7 +1,6 @@
-import React from 'react'
-import eCommerce from '../public/assets/projects/eCommerce.png'
-import Link from 'next/link'
 import Image from 'next/image'
+import Link from 'next/link'
+import eCommerce from '../public/assets/projects/eCommerce.png'
 
 const projectitemsInfo = [
     {

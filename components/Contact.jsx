@@ -1,17 +1,16 @@
-import Image from 'next/image'
-import React from 'react'
-import ContactImg from '../public/assets/contact.jpg';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { AiOutlineMail } from 'react-icons/ai';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import Image from 'next/image';
 import Link from 'next/link';
-import { HiOutlineChevronDoubleUp } from "react-icons/hi";
-import { GrLocation } from "react-icons/gr";
+import { AiOutlineMail } from 'react-icons/ai';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { FiPhoneCall } from "react-icons/fi";
+import { GrLocation } from "react-icons/gr";
 import { ImProfile } from 'react-icons/im';
+import ContactImg from '../public/assets/contact.jpg';
+import { RevealOnScroll } from './RevealOnScroll';
 
 const Contact = () => {
     return (
+        <RevealOnScroll>
         <div id="contact" className='w-full lg:h-screen pt-8'>
             <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
                 <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Contact</p>
@@ -99,6 +98,7 @@ const Contact = () => {
                 </div> */}
             </div>
         </div>
+        </RevealOnScroll>
     )
 }
 

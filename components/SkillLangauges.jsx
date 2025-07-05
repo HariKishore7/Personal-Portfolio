@@ -26,7 +26,7 @@ const imagesList = [
         name: "Tailwind CSS"
     },
     {
-        imageUrl: "/assets/skills/typescript.png",
+        imageUrl: "/assets/skills/typeScript.png",
         name: "TypeScript"
     },
     {
@@ -34,7 +34,7 @@ const imagesList = [
         name: "Redux"
     },
     {
-        imageUrl: "/assets/skills/materialUI.png",
+        imageUrl: "/assets/skills/materialUi.png",
         name: "Material UI"
     },
     {
@@ -62,7 +62,7 @@ const imagesList = [
         name: "Git Hub"
     },
     {
-        imageUrl: "/assets/skills/postman1.png",
+        imageUrl: "/assets/skills/postman.png",
         name: "Postman"
     },
     {
@@ -78,7 +78,7 @@ const imagesList = [
         name: "Java"
     },
     {
-        imageUrl: "/assets/skills/dataStructures.png",
+        imageUrl: "/assets/skills/dsa.png",
         name: "Data Structures & Algo"
     },
 
@@ -88,7 +88,7 @@ const SkillLangauges = () => {
     return (
         <>
             {
-                imagesList.map((item,index) => (
+                imagesList.map((item, index) => (
                     <div key={index} className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>

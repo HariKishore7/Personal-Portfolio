@@ -29,9 +29,9 @@ export default function Home() {
       <Skills />
       <Projects />
       <Contact />
-      <div className="fixed top-[80%] left-[93%] flex justify-center pt-12">
+      <div className="fixed bottom-8 right-8 z-50 flex justify-center items-center">
         <Link href="/#home">
-          <div className="flex rounded-full shadow-lg shadow-gray-500 p-4 cursor-pointer hover:scale-125 ease-in duration-300 gap-2">
+          <div className="flex rounded-full shadow-lg shadow-gray-500 p-4 cursor-pointer hover:scale-125 ease-in duration-300 gap-2 bg-white">
             <HiOutlineChevronDoubleUp size={30} className="text-[#5651e5]" />
           </div>
         </Link>

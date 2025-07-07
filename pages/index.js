@@ -20,7 +20,7 @@ const geistMono = Geist_Mono({
 
 export default function Home() {
   return (
-    <div className="">
+    <div>
       <Head>
         <title>Hari Kishore Portfolio</title>
       </Head>

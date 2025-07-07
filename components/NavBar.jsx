@@ -38,11 +38,11 @@ const NavBar = () => {
   return (
     <div style={{ backgroundColor: `${navBg}` }} className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100] bg-white'}>
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 '>
-        <Link href='/' scroll={false} onClick={(e) => {
-          e.preventDefault();
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-          // Update the URL without reloading
-          window.history.pushState({}, '', '/');
+        <Link href='/' scroll={true} onClick={(e) => {
+          if (window.location.pathname === '/') {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }
         }}>
           <Image src="/h-logo.svg" alt="Logo H" width={40} height={40} />
         </Link>

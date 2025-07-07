@@ -68,7 +68,7 @@ const NavBar = () => {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
                 window.history.pushState({}, '', '/');
               }}>
-                <Image src='/assets/hariNewPic.jpg' alt="Logo/" width={150} height={35} className='rounded-xl' />
+                <Image src='/assets/hariNewPic.jpg' alt="Logo/" width={100} height={25} className='rounded-xl' />
               </Link>
               <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer ease-in hover:scale-125 duration-300' onClick={() => setSideNavBar(false)}> <AiOutlineClose /></div>
             </div>
@@ -76,15 +76,15 @@ const NavBar = () => {
               <p className="w-[85%] md:w-[90%] py-1 text-xl font-medium text-[#5651e5] tracking-wide text-wrap">
                 Hari Kishore
               </p>
-              <p className="w-[85%] md:w-[90%] py-1 text-md font-medium text-gray-700  tracking-wide text-wrap">
+              <p className="w-[85%] md:w-[90%] text-md font-medium text-gray-700  tracking-wide text-wrap">
                 Software Developer,📍India
               </p>
-              <p className="w-[85%] md:w-[90%] py-1 text-sm font-medium text-gray-600">
+              <p className="w-[85%] md:w-[90%] text-sm font-medium text-gray-600">
                 💻Code <span className=" font-bold text-3xl animate-pulse mx-1">.</span>☕Coffee <span className="font-bold text-3xl animate-pulse mx-1">.</span>🚀Explore
               </p>
             </div>
           </div>
-          <div className='py-4 my-4'>
+          <div className='py-1 my-4'>
             <ul className='uppercase'>
               <Link href='/#home' onClick={() => setSideNavBar(false)}><li className='py-4 text-sm hover:underline'>Home</li></Link>
               <Link href='/#about' onClick={() => setSideNavBar(false)}><li className='py-4 text-sm hover:underline'>About</li></Link>
@@ -93,7 +93,7 @@ const NavBar = () => {
               <Link href='/resume' onClick={() => setSideNavBar(false)}><li className='py-4 text-sm hover:underline'>Resume</li></Link>
               <Link href='/#contact' onClick={() => setSideNavBar(false)}><li className='py-4 text-sm hover:underline'>Contact</li></Link>
             </ul>
-            <div className='pt-20'>
+            <div className='pt-10'>
               <p className='uppercase tracking-widest text-[#5651e5]'>Let's connect</p>
               <div className='flex flex-row items-center justify-between my-4 w-full sm:w-[80%]'>
                 <div className='rounded-full shadow-lg shadow-gray-500 p-4 cursor-pointer hover:scale-105 ease-in duration-300'>

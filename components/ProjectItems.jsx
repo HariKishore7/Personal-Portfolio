@@ -1,47 +1,38 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import eCommerce from '../public/assets/projects/eCommerce.png'
+import chatApp from '../public/assets/projects/chatApp.png'
+import Portfolio from '../public/assets/projects/portfolio.png'
 
 const projectitemsInfo = [
     {
         title: "E Commerce Store",
         backgroundImg: eCommerce,
-        stackUsed: "React JS",
+        stackUsed: "React JS, Redux Toolkit, Tailwind CSS",
         projectURL: 'https://e-commerce-store-one-silk.vercel.app/',
-        // projectURL: '/eCommerce',
         codeURL: "https://github.com/HariKishore7/E-Commerce-Store"
     },
-    // {
-    //     title: "E Commerce Store",
-    //     backgroundImg: eCommerce,
-    //     stackUsed: "React JS",
-    //     // projectURL: 'https://e-commerce-store-one-silk.vercel.app/',
-    //     projectURL: '/eCommerce',
-    //     codeURL: "https://github.com/HariKishore7/E-Commerce-Store"
-    // },
-    // {
-    //     title: "E Commerce Store",
-    //     backgroundImg: eCommerce,
-    //     stackUsed: "React JS",
-    //     // projectURL: 'https://e-commerce-store-one-silk.vercel.app/',
-    //     projectURL: '/eCommerce',
-    //     codeURL: "https://github.com/HariKishore7/E-Commerce-Store"
-    // },
-    // {
-    //     title: "E Commerce Store",
-    //     backgroundImg: eCommerce,
-    //     stackUsed: "React JS",
-    //     // projectURL: 'https://e-commerce-store-one-silk.vercel.app/',
-    //     projectURL: '/eCommerce',
-    //     codeURL: "https://github.com/HariKishore7/E-Commerce-Store"
-    // }
+    {
+        title: "Realtime Chat App",
+        backgroundImg: chatApp,
+        stackUsed: "React JS, Supabase, Tailwind CSS, Google Auth",
+        projectURL: 'https://realtime-chat-supabase-dun.vercel.app/',
+        codeURL: "https://github.com/HariKishore7/Realtime-Chat-Supabase"
+    },
+    {
+        title: "My Personal Portfolio",
+        backgroundImg: Portfolio,
+        stackUsed: "Next JS, Tailwind CSS",
+        projectURL: 'https://harikishoreportfolio.vercel.app/',
+        codeURL: "https://github.com/HariKishore7/Personal-Portfolio"
+    }
 ]
 
 const ProjectItems = () => {
     return (
         <>
             {
-                projectitemsInfo.map((item,index) => (
+                projectitemsInfo.map((item, index) => (
                     <div key={index} className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]'>
                         <Image src={item.backgroundImg} alt='/' className='rounded-xl group-hover:opacity-10' />
                         <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>

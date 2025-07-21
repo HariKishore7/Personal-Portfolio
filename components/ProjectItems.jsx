@@ -3,6 +3,7 @@ import Link from 'next/link'
 import eCommerce from '../public/assets/projects/eCommerce.png'
 import chatApp from '../public/assets/projects/chatApp.png'
 import Portfolio from '../public/assets/projects/portfolio.png'
+import todoApp from '../public/assets/projects/todoApp.png'
 
 const projectitemsInfo = [
     {
@@ -25,7 +26,14 @@ const projectitemsInfo = [
         stackUsed: "Next JS, Tailwind CSS",
         projectURL: 'https://harikishoreportfolio.vercel.app/',
         codeURL: "https://github.com/HariKishore7/Personal-Portfolio"
-    }
+    },
+    {
+        title: "AI-Based Task Prioritizer",
+        backgroundImg: todoApp,
+        stackUsed: "Next.js, TypeScript, Firebase, Genkit AI",
+        projectURL: 'https://firebase-studio-todo.vercel.app/',
+        codeURL: "https://github.com/HariKishore7/firebaseStudio-todo"
+    },
 ]
 
 const ProjectItems = () => {
@@ -33,9 +41,9 @@ const ProjectItems = () => {
         <>
             {
                 projectitemsInfo.map((item, index) => (
-                    <div key={index} className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]'>
-                        <Image src={item.backgroundImg} alt='/' className='rounded-xl group-hover:opacity-10' />
-                        <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
+                    <div key={index} className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group md:bg-none md:hover:bg-gradient-to-r from-[#5651e5] to-[#709dff] bg-gradient-to-r from-[#5651e5]/70 to-[#709dff]/70  md:group-hover:bg-gradient-to-r md:from-[#5651e5] md:to-[#709dff]'>
+                        <Image src={item.backgroundImg} alt='/' className='rounded-xl object-cover opacity-15 md:opacity-100 md:group-hover:opacity-10' />
+                        <div className='absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] block group-hover:block md:hidden'>
                             <h3 className='text-2xl text-white tracking-wider text-center'>{item.title}</h3>
                             <p className='pb-4 pt-2 text-white text-center'>{item.stackUsed}</p>
                             <div className='flex space-x-4'>

@@ -2,7 +2,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import eCommerce from '../public/assets/projects/eCommerce.png'
 import chatApp from '../public/assets/projects/chatApp.png'
-import Portfolio from '../public/assets/projects/portfolio.png'
 import todoApp from '../public/assets/projects/todoApp.png'
 
 const projectitemsInfo = [
@@ -19,13 +18,6 @@ const projectitemsInfo = [
         stackUsed: "React JS, Supabase, Tailwind CSS, Google Auth",
         projectURL: 'https://realtime-chat-supabase-dun.vercel.app/',
         codeURL: "https://github.com/HariKishore7/Realtime-Chat-Supabase"
-    },
-    {
-        title: "My Personal Portfolio",
-        backgroundImg: Portfolio,
-        stackUsed: "Next JS, Tailwind CSS",
-        projectURL: 'https://harikishoreportfolio.vercel.app/',
-        codeURL: "https://github.com/HariKishore7/Personal-Portfolio"
     },
     {
         title: "AI-Based Task Prioritizer",

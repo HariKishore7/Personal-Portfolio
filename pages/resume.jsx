@@ -47,11 +47,11 @@ const resume = () => {
                 <div className='text-center py-4 text-xl font-bold uppercase tracking-wider'>
                     <div className='hidden sm:block'>
                         <p>
-                            Software Developer <span className='px-1'>|</span> Web Development{' '}
+                            Frontend Developer <span className='px-1'>|</span> Web Development{' '}
                         </p>
                     </div>
                     <div className='block sm:hidden'>
-                        <p>Software Developer</p>
+                        <p>Frontend Developer</p>
                         <p className='py-2'>Web Development</p>
                     </div>
                 </div>
@@ -61,6 +61,98 @@ const resume = () => {
                     in backend technologies such as database management and integration with RESTful APIs. Strong problem-solving skills and ability to collaborate
                     eﬀectively in cross-functional teams.
                 </p>
+
+                <h5 className='text-center underline text-[18px] py-6'>
+                    Professional Experience
+                </h5>
+                {/* Experience */}
+                <div className='py-6'>
+                    <p className='italic'>
+                        <span className='font-bold italic'>
+                            Sapiens
+                        </span>
+                        <span className='px-2'>|</span>Frontend Developer
+                    </p>
+                    <p className='py-1 italic'>Jun 2023 - Present <span className='px-2'>|</span> Bangalore, India</p>
+                    <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+                        <li>
+                            Led full lifecycle development of client claims module, delivering tailored features that improved client
+                            satisfaction and efficiency.
+                        </li>
+                        <li>
+                            Engineered robust claims logic ensuring 100% accuracy in payment workflows across multiple scenarios.
+                        </li>
+                        <li>
+                            Implemented robust error-handling, reducing bugs by 99% and improving team debugging efficiency.
+                        </li>
+                        <li>
+                            Enhanced an in-house project portal and optimized performance for successful production release.
+                        </li>
+                    </ul>
+                </div>
+                {/* Experience */}
+                <div className='py-6'>
+                    <p className='italic'>
+                        <span className='font-bold italic'>
+                            Amoga
+                        </span>
+                        <span className='px-2'>|</span>Frontend Developer
+                    </p>
+                    <p className='py-1 italic'>Nov 2022 - Jun 2023 <span className='px-2'>|</span> Bangalore, India</p>
+                    <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+                        <li>
+                            Reduced 95% manual effort by developing the ACM (Application Change Management) feature.
+                        </li>
+                        <li>
+                            Worked on OKR management software to streamline goal tracking and execution.
+                        </li>
+                        <li>
+                            Developed features for planning, collaboration, and tracking project dependencies, tasks, and employee workflows.
+                        </li>
+                        <li>
+                            Built complex UIs using reusable components and maintainable code, resolved critical bugs swiftly.
+                        </li>
+                    </ul>
+                </div>
+                {/* Experience */}
+                <div className='py-6'>
+                    <p className='italic'>
+                        <span className='font-bold italic'>
+                            Genpact
+                        </span>
+                        <span className='px-2'>|</span>Frontend Developer
+                    </p>
+                    <p className='py-1 italic'>Mar 2021 - Oct 2022 <span className='px-2'>|</span> Bangalore, India</p>
+                    <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+                        <li>
+                            Built responsive web applications and implemented components based on design specs.
+                        </li>
+                        <li>
+                            Developed and maintained code for multiple campaigns at PayPal, following industry best practices.
+                        </li>
+                        <li>
+                            Led critical campaigns, delivering user-friendly and responsive websites for key clients.
+                        </li>
+                    </ul>
+                </div>
+                {/* Experience */}
+                <div className='py-6'>
+                    <p className='italic'>
+                        <span className='font-bold italic'>
+                            Newton School
+                        </span>
+                        <span className='px-2'>|</span>Software Developer Intern
+                    </p>
+                    <p className='py-1 italic'>Aug 2020 - Mar 2021<span className='px-2'>|</span> Remote, India</p>
+                    <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+                        <li>
+                            Gained full-stack experience by working on dynamic form generation and shopping inventory.
+                        </li>
+                        <li>
+                            Tech Stack used: ReactJS, JavaScript, NodeJS, ExpressJS, MongoDB, Java, DSA.
+                        </li>
+                    </ul>
+                </div>
 
                 {/* Skills */}
                 <div className=' py-4'>
@@ -104,98 +196,6 @@ const resume = () => {
                     <p className='py-2'>
                         <span className='font-bold'>Data Structures & Algorithms</span>
                     </p>
-                </div>
-
-                <h5 className='text-center underline text-[18px] py-4'>
-                    Professional Experience
-                </h5>
-                {/* Experience */}
-                <div className='py-6'>
-                    <p className='italic'>
-                        <span className='font-bold italic'>
-                            Sapiens
-                        </span>
-                        <span className='px-2'>|</span>Software Developer
-                    </p>
-                    <p className='py-1 italic'>06/2023 - Present <span className='px-2'>|</span> Bangalore, India</p>
-                    <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-                        <li>
-                            Managed end-to-end lifecycle of Hollard’s claims module, delivering customized design and functionality per client requirements.
-
-                        </li>
-                        <li>
-                            Built logic for claims processing, ensuring accurate end-to-end payment workflows calculations.
-                        </li>
-                        <li>
-                            Implemented error-handling, achieving ~99% bug reduction and minimizing debugging efforts.
-                        </li>
-                        <li>
-                            Enhanced an in-house project portal and optimized performance for successful production release.
-                        </li>
-                    </ul>
-                </div>
-                {/* Experience */}
-                <div className='py-6'>
-                    <p className='italic'>
-                        <span className='font-bold italic'>
-                            Amoga
-                        </span>
-                        <span className='px-2'>|</span>Software Developer
-                    </p>
-                    <p className='py-1 italic'>11/2022 - 06/2023 <span className='px-2'>|</span> Bangalore, India</p>
-                    <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-                        <li>
-                            Reduced 95% manual effort by developing the ACM (Application Change Management) feature.
-                        </li>
-                        <li>
-                            Contributed to OKR management software to streamline goal tracking and execution.
-                        </li>
-                        <li>
-                            Developed features for planning, collaboration, and tracking project dependencies, tasks, and employee workflows.
-                        </li>
-                        <li>
-                            Built complex UIs using reusable components and maintainable code, resolved critical bugs swiftly.
-                        </li>
-                    </ul>
-                </div>
-                {/* Experience */}
-                <div className='py-6'>
-                    <p className='italic'>
-                        <span className='font-bold italic'>
-                            Genpact
-                        </span>
-                        <span className='px-2'>|</span>Software Developer
-                    </p>
-                    <p className='py-1 italic'>03/2021 - 10/2022 <span className='px-2'>|</span> Bangalore, India</p>
-                    <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-                        <li>
-                            Built responsive web applications and implemented components based on design specs.
-                        </li>
-                        <li>
-                            Developed and maintained code for multiple campaigns at PayPal, following industry best practices.
-                        </li>
-                        <li>
-                            Led critical campaigns, delivering user-friendly and responsive websites for key clients.
-                        </li>
-                    </ul>
-                </div>
-                {/* Experience */}
-                <div className='py-6'>
-                    <p className='italic'>
-                        <span className='font-bold italic'>
-                            Newton School
-                        </span>
-                        <span className='px-2'>|</span>Software Developer Intern
-                    </p>
-                    <p className='py-1 italic'>06/2020 - 03/2021<span className='px-2'>|</span> Bangalore, India</p>
-                    <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-                        <li>
-                            Gained full-stack experience by working on dynamic form generation and shopping inventory.
-                        </li>
-                        <li>
-                            Tech Stack used: ReactJS, JavaScript, NodeJS, ExpressJS, MongoDB, Java, DSA.
-                        </li>
-                    </ul>
                 </div>
 
                 <h5 className='text-center underline text-[18px] py-4'>

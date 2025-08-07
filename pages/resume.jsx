@@ -47,7 +47,7 @@ const resume = () => {
                 <div className='text-center py-4 text-xl font-bold uppercase tracking-wider'>
                     <div className='hidden sm:block'>
                         <p>
-                            Frontend Developer <span className='px-1'>|</span> Web Development{' '}
+                            Frontend Developer
                         </p>
                     </div>
                     <div className='block sm:hidden'>
@@ -76,17 +76,17 @@ const resume = () => {
                     <p className='py-1 italic'>Jun 2023 - Present <span className='px-2'>|</span> Bangalore, India</p>
                     <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
                         <li>
-                            Led full lifecycle development of client claims module, delivering tailored features that improved client
-                            satisfaction and efficiency.
+                            Led full lifecycle development of claims module, delivering features that streamlined claim processing and
+                            reduced turnaround time.
                         </li>
                         <li>
                             Engineered robust claims logic ensuring 100% accuracy in payment workflows across multiple scenarios.
                         </li>
                         <li>
-                            Implemented robust error-handling, reducing bugs by 99% and improving team debugging efficiency.
+                            Implemented robust error handling, cutting bugs by 99% and resolution time from 2 hours to 15 minutes.
                         </li>
                         <li>
-                            Enhanced an in-house project portal and optimized performance for successful production release.
+                            Enhanced internal project portal to enable smooth and timely production rollout.
                         </li>
                     </ul>
                 </div>
@@ -101,16 +101,17 @@ const resume = () => {
                     <p className='py-1 italic'>Nov 2022 - Jun 2023 <span className='px-2'>|</span> Bangalore, India</p>
                     <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
                         <li>
-                            Reduced 95% manual effort by developing the ACM (Application Change Management) feature.
+                            Reduced 95% of manual operations by building the Application Change Management (ACM) system.
                         </li>
                         <li>
-                            Worked on OKR management software to streamline goal tracking and execution.
+                            Contributed to the development of OKR management software, enabling streamlined goal setting and
+                            progress tracking.
                         </li>
                         <li>
-                            Developed features for planning, collaboration, and tracking project dependencies, tasks, and employee workflows.
+                            Built modules for collaboration and task tracking to streamline project workflows.
                         </li>
                         <li>
-                            Built complex UIs using reusable components and maintainable code, resolved critical bugs swiftly.
+                            Developed modular, maintainable UI components aligned with product scalability goals.
                         </li>
                     </ul>
                 </div>
@@ -125,13 +126,11 @@ const resume = () => {
                     <p className='py-1 italic'>Mar 2021 - Oct 2022 <span className='px-2'>|</span> Bangalore, India</p>
                     <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
                         <li>
-                            Built responsive web applications and implemented components based on design specs.
+                            Developed scalable, responsive UIs improving usability and performance for multiple client campaigns.
                         </li>
                         <li>
-                            Developed and maintained code for multiple campaigns at PayPal, following industry best practices.
-                        </li>
-                        <li>
-                            Led critical campaigns, delivering user-friendly and responsive websites for key clients.
+                            Led high-profile campaigns with a focus on performance and user experience, increasing client engagement
+                            by 30%.
                         </li>
                     </ul>
                 </div>
@@ -161,7 +160,7 @@ const resume = () => {
                         <span className='font-bold'>Frameworks</span>
                         <span className='px-2'>|</span>ReactJS
                         <span className='px-2'>|</span> NextJS
-                        <span className='px-2'>|</span>Redux
+                        <span className='px-2'>|</span>Redux Toolkit
                         <span className='px-2'>|</span>Tailwind CSS
                         <span className='px-2'>|</span>Material UI
                         <span className='px-2'>|</span>Bootstrap
@@ -184,9 +183,10 @@ const resume = () => {
                         <span className='px-2'>|</span>Git
                         <span className='px-2'>|</span>GitHub
                         <span className='px-2'>|</span>Postman
-                        <span className='px-2'>|</span>REST API
+                        <span className='px-2'>|</span>RESTful APIs
                         <span className='px-2'>|</span>Webpack
                         <span className='px-2'>|</span>Babel
+                        <span className='px-2'>|</span>Vite
                     </p>
                     <p className='py-2'>
                         <span className='font-bold'>Database</span>
@@ -216,10 +216,10 @@ const resume = () => {
                 </h5>
                 <div className='py-6 italic space-y-4'>
                     <div className='font-bold italic'>
-                        Wow award for outstanding performance (Q2, 2024)
+                        Recognized with the Wow Award for exceptional ownership and delivery in Q2 2024.
                     </div>
                     <div className='font-bold italic'>
-                        Best Campaign Delivery Award(Q1,2021), Diamond campaign Delivery Award(Q1, 2022)
+                        Honored with Diamond Campaign Delivery Awards for leading high-impact client launches in Q1 2022.
                     </div>
                 </div>
                 <div className='flex justify-center pt-12'>

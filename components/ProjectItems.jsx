@@ -6,18 +6,18 @@ import todoApp from '../public/assets/projects/todoApp.png'
 
 const projectitemsInfo = [
     {
-        title: "E Commerce Store",
-        backgroundImg: eCommerce,
-        stackUsed: "React JS, Redux Toolkit, Tailwind CSS",
-        projectURL: 'https://e-commerce-store-one-silk.vercel.app/',
-        codeURL: "https://github.com/HariKishore7/E-Commerce-Store"
-    },
-    {
         title: "Realtime Chat App",
         backgroundImg: chatApp,
         stackUsed: "React JS, Supabase, Tailwind CSS, Google Auth",
         projectURL: 'https://realtime-chat-supabase-dun.vercel.app/',
         codeURL: "https://github.com/HariKishore7/Realtime-Chat-Supabase"
+    },
+    {
+        title: "E Commerce Store",
+        backgroundImg: eCommerce,
+        stackUsed: "React JS, Redux Toolkit, Tailwind CSS",
+        projectURL: 'https://e-commerce-store-one-silk.vercel.app/',
+        codeURL: "https://github.com/HariKishore7/E-Commerce-Store"
     },
     {
         title: "AI-Based Task Prioritizer",

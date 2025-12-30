@@ -76,17 +76,22 @@ const resume = () => {
                     <p className='py-1 italic'>Jun 2023 - Present <span className='px-2'>|</span> Bangalore, India</p>
                     <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
                         <li>
-                            Led full lifecycle development of claims module, delivering features that streamlined claim processing and
-                            reduced turnaround time.
+                            Led full lifecycle development of claims module, delivering features that streamlined claim processing
+                            and reduced turnaround time by 76%.
                         </li>
                         <li>
-                            Engineered robust claims logic ensuring 100% accuracy in payment workflows across multiple scenarios.
+                            Improved the stability of quote and policy creation by eliminating key bottlenecks, contributing to
+                            increased customer satisfaction and smoother policy issuance
                         </li>
                         <li>
-                            Implemented robust error handling, cutting bugs by 99% and resolution time from 2 hours to 15 minutes.
+                            Engineered robust claims logic ensuring accuracy in payment workflows across multiple scenarios.
                         </li>
                         <li>
-                            Enhanced internal project portal to enable smooth and timely production rollout.
+                            Implemented robust error handling, cutting bugs resolution time from 2 hours to 15 minutes.
+                        </li>
+                        <li>
+                            Enhanced the internal project portal to support smooth and timely production rollouts, enabling
+                            customer data tracking through analytics and multiple reporting formats.
                         </li>
                     </ul>
                 </div>
@@ -101,14 +106,15 @@ const resume = () => {
                     <p className='py-1 italic'>Nov 2022 - Jun 2023 <span className='px-2'>|</span> Bangalore, India</p>
                     <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
                         <li>
-                            Reduced 95% of manual operations by building the Application Change Management (ACM) system.
+                            Architected and delivered an Application Change Management (ACM) system that automated
+                            change workflows, reducing manual operations by 95% enhancing operational efficiency and stability
                         </li>
                         <li>
                             Contributed to the development of OKR management software, enabling streamlined goal setting and
                             progress tracking.
                         </li>
                         <li>
-                            Built modules for collaboration and task tracking to streamline project workflows.
+                            Built collaboration and task tracking modules to streamline project workflows.
                         </li>
                         <li>
                             Developed modular, maintainable UI components aligned with product scalability goals.
@@ -126,11 +132,12 @@ const resume = () => {
                     <p className='py-1 italic'>Mar 2021 - Oct 2022 <span className='px-2'>|</span> Bangalore, India</p>
                     <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
                         <li>
-                            Developed scalable, responsive UIs improving usability and performance for multiple client campaigns.
+                            Developed scalable, responsive user interfaces, improving usability and performance across multiple
+                            client campaigns.
                         </li>
                         <li>
-                            Led high-profile campaigns with a focus on performance and user experience, increasing client engagement
-                            by 30%.
+                            Led high-profile campaigns with a strong focus on performance optimization and user experience,
+                            increasing client engagement by 65%
                         </li>
                     </ul>
                 </div>
@@ -184,6 +191,7 @@ const resume = () => {
                         <span className='px-2'>|</span>GitHub
                         <span className='px-2'>|</span>Postman
                         <span className='px-2'>|</span>RESTful APIs
+                        <span className='px-2'>|</span>GraphQL
                         <span className='px-2'>|</span>Webpack
                         <span className='px-2'>|</span>Babel
                         <span className='px-2'>|</span>Vite

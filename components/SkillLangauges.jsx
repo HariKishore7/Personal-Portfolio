@@ -22,6 +22,10 @@ const imagesList = [
         name: "CSS3"
     },
     {
+        imageUrl: "/assets/skills/graphQL.png",
+        name: "GraphQL"
+    },
+    {
         imageUrl: "/assets/skills/tailwind.png",
         name: "Tailwind CSS"
     },
@@ -76,6 +80,22 @@ const imagesList = [
     {
         imageUrl: "/assets/skills/java.png",
         name: "Java"
+    },
+    {
+        imageUrl: "/assets/skills/vite.png",
+        name: "Vite"
+    },
+    {
+        imageUrl: "/assets/skills/babel.png",
+        name: "Babel"
+    },
+    {
+        imageUrl: "/assets/skills/webpack.png",
+        name: "Webpack"
+    },
+    {
+        imageUrl: "/assets/skills/systemDesign.png",
+        name: "System Design"
     },
     {
         imageUrl: "/assets/skills/dsa.png",
